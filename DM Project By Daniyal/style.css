@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: black;
+
+}
+
+nav h1 {
+    margin-left: 1%;
+    display: flex;
+    letter-spacing: 3px;
+    font-family: inter, sans-serif;
+    padding-top: 1%;
+}
+
+
+
+nav {
+    background-color: #ff1800;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    /* margin-top: 2%; */
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 50%;
+    display: flex;
+    padding-top: 1%;
+}
+
+nav li {
+    margin-right: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'inter', sans-serif;
+
+}
+
+.hello-image {
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    margin-left: 25%;
+    margin-top: 10%;
+    transform: rotate(5);
+
+
+}
+
+.hello-image img {
+    width: 100%;
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: black;
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+  
+
+    50% {
+        transform: translateX(50px);
+    }
+}
+
+#we {
+    font-family: 'inter', sans-serif;
+    margin: 10%;
+    color: white;
+    margin-top: 5%;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.container {
+    background-color: #0A66C2;
+    /* display: flex; */
+
+}
+
+
+.Para1 h1 {
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    background-color: black;
+    color: #0A66C2;
+}
+
+.Para2 {
+    font-size: xx-large;
+    margin-top: 1%;
+    text-align: justify;
+    padding-top: 5rem;
+
+    display: inline-block;
+    margin: 10%;
+    margin-top: 2%;
+    font-style: italic;
+
+}
+
+.dmimage {
+    width: 570px;
+    height: 520px;
+    margin-left: 30%;
+    margin-top: 5%;
+
+}
+
+.container2 {
+    background-color: #ff1e5e;
+}
+
+.whatwedo {
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    padding-left: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    background-color: #0A66C2;
+    color: #ff1e5e;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+
+}
+
+#servicecontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#servicecontainer p {
+    font-size: xx-large;
+    text-align: left;
+    font-style: italic;
+    padding: 5%;
+    text-align: justify;
+}
+
+#servicecontainer h1 {
+    font-size: 50PX;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'INTER', sans-serif;
+}
+
+#servicecontainer2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#servicecontainer2 p {
+    font-size: xx-large;
+    text-align: left;
+    font-style: italic;
+    padding: 5%;
+    text-align: justify;
+}
+
+#servicecontainer2 h1 {
+    font-size: 50PX;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'INTER', sans-serif;
+}
+
+.dmimage2 {
+    width: 619px;
+    height: 402px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.feedback {
+    justify-content: center;
+    display: flex;
+    /* align-items: center;s */
+    flex-direction: column;
+    padding: 5%;
+    padding-left: 2%;
+}
+.feedback p{
+    font-size: 25px;
+}
+.feedback label{
+    font-size: 25px;
+}
+.feedback input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.radio-wrapper {
+    display: flex;
+    margin-bottom: 10px;
+    padding-right: 10%;
+}
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 2%;
+}
+
+footer p {
+    color: rgb(186, 182, 182);
+    text-align: center;
+    font-size: x-large;
+    font-weight: 100;
+}
+
+footer img {
+    width: 35px;
+    height: 35px;
+}
+
+.sociali {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sociali a {
+    padding: 1%;
+}
+
+.sociali i {
+    font-size: 40px;
+}
