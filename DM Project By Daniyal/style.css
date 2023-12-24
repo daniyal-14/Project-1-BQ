@@ -75,7 +75,7 @@ nav a {
 }
 
 @keyframes slide {
-  
+
 
     50% {
         transform: translateX(50px);
@@ -93,7 +93,7 @@ nav a {
 }
 
 .container {
-    background-color: #0A66C2;
+    background-color: #ff1800;
     /* display: flex; */
 
 }
@@ -107,7 +107,7 @@ nav a {
     margin-right: 25%;
     text-align: center;
     background-color: black;
-    color: #0A66C2;
+    color: #ff1800;
 }
 
 .Para2 {
@@ -126,13 +126,13 @@ nav a {
 .dmimage {
     width: 570px;
     height: 520px;
-    margin-left: 30%;
+    margin-left: 34%;
     margin-top: 5%;
 
 }
 
 .container2 {
-    background-color: #ff1e5e;
+    background-color: black
 }
 
 .whatwedo {
@@ -143,8 +143,8 @@ nav a {
     margin-left: 25%;
     margin-right: 25%;
     text-align: center;
-    background-color: #0A66C2;
-    color: #ff1e5e;
+    background-color: #ff1800;
+    color: black;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 
 
@@ -153,6 +153,7 @@ nav a {
 #servicecontainer {
     display: flex;
     flex-direction: row;
+    color: #ff1800;
 }
 
 
@@ -162,6 +163,7 @@ nav a {
     font-style: italic;
     padding: 5%;
     text-align: justify;
+    color: #ff1800;
 }
 
 #servicecontainer h1 {
@@ -169,11 +171,13 @@ nav a {
     text-align: center;
     margin-bottom: 10px;
     font-family: 'INTER', sans-serif;
+    color: #ff1800;
 }
 
 #servicecontainer2 {
     display: flex;
     flex-direction: row;
+    color: #ff1800;
 }
 
 #servicecontainer2 p {
@@ -182,6 +186,7 @@ nav a {
     font-style: italic;
     padding: 5%;
     text-align: justify;
+    color: #ff1800;
 }
 
 #servicecontainer2 h1 {
@@ -189,13 +194,55 @@ nav a {
     text-align: center;
     margin-bottom: 10px;
     font-family: 'INTER', sans-serif;
+    color: #ff1800;
 }
 
 .dmimage2 {
     width: 619px;
     height: 402px;
-    margin-left: 30%;
+    margin-left: 34%;
     margin-top: 5%;
+}
+.mainsignupcontainer{
+    background-color: #e3e3ff;
+    padding: 5%;
+}
+.signup {
+    width: 370px;
+    height: 452px;
+    border: #0A66C2 3px solid;
+    background-color: #8787c5;
+    border-radius: 5px;
+    margin-left: 40%;
+
+}
+
+.name input {
+    width: 40%;
+    height: 30px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.credentials input {
+    width: 90%;
+    height: 30px;
+    margin: 5px;
+    margin-left: 15px;
+    border-radius: 5px;
+cursor: pointer;
+
+}
+
+.buttons input[type="submit"] {
+    width: 280px;
+    height: 50px;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 12%;
+    border-radius: 5px;
+    font-size: 20px
+    
 }
 
 .feedback {
@@ -206,23 +253,30 @@ nav a {
     padding: 5%;
     padding-left: 2%;
 }
-.feedback p{
+
+.feedback p {
     font-size: 25px;
+    color: #ff1800;
 }
-.feedback label{
+
+.feedback label {
     font-size: 25px;
+    color: #ff1800;
 }
-.feedback input[type="radio"]{
+
+.feedback input[type="radio"] {
     width: 20px;
     height: 20px;
     margin-right: 5px;
     cursor: pointer;
 }
+
 .radio-wrapper {
     display: flex;
     margin-bottom: 10px;
     padding-right: 10%;
 }
+
 footer {
     background-color: black;
     width: 100%;
