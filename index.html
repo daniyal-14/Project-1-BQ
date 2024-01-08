@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #e3e3ff;
+
+}
+.mainsignupcontainer{
+    /* background-color: #e3e3ff; */
+    padding: 5%;
+}
+.signup {
+    width: 370px;
+    height: 452px;
+    border: #0A66C2 3px solid;
+    background-color: #8787c5;
+    border-radius: 5px;
+    margin-left: 40%;
+
+}
+
+.name input {
+    width: 40%;
+    height: 30px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.credentials input {
+    width: 90%;
+    height: 30px;
+    margin: 5px;
+    margin-left: 15px;
+    border-radius: 5px;
+cursor: pointer;
+
+}
+
+.buttons input[type="submit"] {
+    width: 280px;
+    height: 50px;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 12%;
+    border-radius: 5px;
+    font-size: 20px
+    
+}
+
+.feedback {
+    justify-content: center;
+    display: flex;
+    /* align-items: center;s */
+    flex-direction: column;
+    padding: 5%;
+    padding-left: 2%;
+}
+
+.feedback p {
+    font-size: 25px;
+    color: #ff1800;
+}
+
+.feedback label {
+    font-size: 25px;
+    color: #ff1800;
+}
+
+.feedback input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.radio-wrapper {
+    display: flex;
+    margin-bottom: 10px;
+    padding-right: 10%;
+}
+    </style>
+</head>
+<body>
+    <section id="contact">
+        <div class="mainsignupcontainer">
+            <div class="signup">
+                <form action="">
+                    <h1 style="text-align: center; color: white; margin-top: 5%;">SIGN-UP</h1>
+                    <br>
+                    <div class="name">
+                        <input type="text" placeholder=" First Name">
+                        <input type="text" placeholder=" Last Name">
+                    </div>
+                    
+                    <br>
+                    <div class="credentials">
+                        <input type="email" name="" id="" placeholder=" Enter Email Address  " required>
+                        <br>
+                        <input type="password" placeholder=" Enter Password ">
+                        <br>
+                        <input type="password" placeholder=" Confirm Password ">
+                    </div>
+                    <div class="radio">
+                        <input type="checkbox" style="margin-left: 12%; margin-top: 15%;">
+                        <label for="checkbox" style="color: white; font-size: medium; padding-left: 0px;"> I Agree all
+                            the terms & conditions </label>
+                    </div>
+
+                    <div class="buttons">
+                        <input type="submit" value="Sign-up">
+
+                    </div>
+
+
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
